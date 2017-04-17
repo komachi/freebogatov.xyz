@@ -1,0 +1,53 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+body {
+  font: 18px/1.4 Lora, serif;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: normal;
+  text-align: center;
+  padding-top: 1.5em;
+  padding-bottom: .5em;
+}
+
+p {
+  text-align: justify;
+}
+
+.languages a {
+  padding-left: 1em;
+}
+
+ol, ul {
+  padding-left: 1em;
+}
+
+.icons {
+  padding-top: 1.5em;
+}
+
+.icons a:not(:first-child) {
+  padding-left: 1em;
+}
+
+.icons a,
+.icons a:link {
+  color: #000 !important;
+}
+
+.freebogatov {
+  font-size: 13vw;
+  color: #ae464f;
+  font-family: 'Oswald', sans-serif;
+}
+
+@media (min-width: 576px) {
+  .freebogatov {
+    font-size: 5rem;
+  }
+}

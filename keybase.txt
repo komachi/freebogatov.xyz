@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/freebogatov
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://freebogatov.org
+  * I am freebogatov (https://keybase.io/freebogatov) on keybase.
+  * I have a public key ASD9JtAQUqoMPdqorU6IA1qJ0Hv4RH7y6TR4ZwzhVDr7Ewo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120fd26d01052aa0c3ddaa8ad4e88035a89d07bf8447ef2e93478670ce1543afb130a",
+            "host": "keybase.io",
+            "kid": "0120fd26d01052aa0c3ddaa8ad4e88035a89d07bf8447ef2e93478670ce1543afb130a",
+            "uid": "04c7760e040621608a2c8a4fee6f8119",
+            "username": "freebogatov"
+        },
+        "service": {
+            "hostname": "freebogatov.org",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.21"
+    },
+    "ctime": 1492463888,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1492463844,
+        "hash": "b81636db6037c6d741195663a5cdd5161546a038e721afe65d0a06e4dd276567ee139ede949b5104cf595af27f4945d720057f1de82b060ae768c7019a9d1e31",
+        "seqno": 1024896
+    },
+    "prev": "b1e893fb409d40e342af70873600575c947e2884a156311f80824426c9164242",
+    "seqno": 6,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg/SbQEFKqDD3aqK1OiANaidB7+ER+8uk0eGcM4VQ6+xMKp3BheWxvYWTFAvt7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwZmQyNmQwMTA1MmFhMGMzZGRhYThhZDRlODgwMzVhODlkMDdiZjg0NDdlZjJlOTM0Nzg2NzBjZTE1NDNhZmIxMzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZmQyNmQwMTA1MmFhMGMzZGRhYThhZDRlODgwMzVhODlkMDdiZjg0NDdlZjJlOTM0Nzg2NzBjZTE1NDNhZmIxMzBhIiwidWlkIjoiMDRjNzc2MGUwNDA2MjE2MDhhMmM4YTRmZWU2ZjgxMTkiLCJ1c2VybmFtZSI6ImZyZWVib2dhdG92In0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJmcmVlYm9nYXRvdi5vcmciLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4yMSJ9LCJjdGltZSI6MTQ5MjQ2Mzg4OCwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDkyNDYzODQ0LCJoYXNoIjoiYjgxNjM2ZGI2MDM3YzZkNzQxMTk1NjYzYTVjZGQ1MTYxNTQ2YTAzOGU3MjFhZmU2NWQwYTA2ZTRkZDI3NjU2N2VlMTM5ZWRlOTQ5YjUxMDRjZjU5NWFmMjdmNDk0NWQ3MjAwNTdmMWRlODJiMDYwYWU3NjhjNzAxOWE5ZDFlMzEiLCJzZXFubyI6MTAyNDg5Nn0sInByZXYiOiJiMWU4OTNmYjQwOWQ0MGUzNDJhZjcwODczNjAwNTc1Yzk0N2UyODg0YTE1NjMxMWY4MDgyNDQyNmM5MTY0MjQyIiwic2Vxbm8iOjYsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAI2pOsO0jO10bDTwUFIYg2mGTIEOmuv8nYC5eGLpan01LtAEPtksj6tH9REB0V2NlT1OrTmFIHMp6lC4l7S0JA6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIME8emlSh446nM7YDeWbHRH0lw3BAChnO2ZPbWxaKHoGo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/freebogatov
+
+==================================================================

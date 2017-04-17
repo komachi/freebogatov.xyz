@@ -1,0 +1,45 @@
+<div class="row">
+  <div class="d-flex justify-content-center col-12 h4 icons">
+    {% if page.hashtag %}
+      <a href="https://facebook.com/sharer.php?u={{ site.url | append: page.url | uri_escape }}&t={{ page.title | append: ' #' | append: page.hashtag | uri_escape }}" title="Facebook" target="_blank">
+    {% else %}
+      <a href="https://facebook.com/sharer.php?u={{ site.url | append: page.url | uri_escape }}&t={{ page.title | uri_escape }}" title="Facebook" target="_blank">
+    {% endif %}
+      <i class="fa fa-facebook" aria-hidden="true"></i>
+    </a>
+
+    {% if page.hashtag %}
+      <a href="https://twitter.com/share?url={{ site.url | append: page.url | uri_escape }}&text={{ page.title | append: ' #' | append: page.hashtag | uri_escape }}" title="Twitter" target="_blank">
+    {% else %}
+      <a href="https://twitter.com/share?url={{ site.url | append: page.url | uri_escape }}&text={{ page.title | uri_escape }}" title="Twitter" target="_blank">
+    {% endif %}
+      <i class="fa fa-twitter" aria-hidden="true"></i>
+    </a>
+
+    {% if page.hashtag %}
+      <a href="http://vk.com/share.php?url={{ site.url | append: page.url | uri_escape }}&title={{ page.title | append: ' #' | append: page.hashtag | uri_escape }}" title="VK" target="_blank">
+    {% else %}
+      <a href="http://vk.com/share.php?url={{ site.url | append: page.url | uri_escape }}&title={{ page.title | uri_escape }}" title="VK" target="_blank">
+    {% endif %}
+      <i class="fa fa-vk" aria-hidden="true"></i>
+    </a>
+
+    <a href="http://reddit.com/submit?url={{ site.url | append: page.url | uri_escape }}&title={{ page.title | uri_escape }}" title="Reddit" target="_blank">
+      <i class="fa fa-reddit" aria-hidden="true"></i>
+    </a>
+
+    {% if page.langcode == 'en_US' %}
+      <a href="http://news.ycombinator.com/submitlink?u={{ site.url | append: page.url | uri_escape }}&t={{ page.title | uri_escape }}" title="Hacker News" target="_blank">
+        <i class="fa fa-hacker-news" aria-hidden="true"></i>
+      </a>
+    {% endif %}
+
+    <a href="https://plus.google.com/share?url={{ site.url | append: page.url | uri_escape }}" title="Google Plus" target="_blank">
+      <i class="fa fa-google-plus" aria-hidden="true"></i>
+    </a>
+
+    <a href="http://pinterest.com/pin/create/link/?url={{ site.url | append: page.url | uri_escape }}&description={{ page.title | uri_escape }}" title="Pinterest" target="_blank">
+      <i class="fa fa-pinterest" aria-hidden="true"></i>
+    </a>
+  </div>
+</div>

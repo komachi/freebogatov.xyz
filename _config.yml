@@ -1,0 +1,35 @@
+baseurl: ""
+url: "https://freebogatov.org"
+
+github: komachi/freebogatov.org
+twitter:
+  username: AntNesterov
+author:
+  twitter: AntNesterov
+og:
+  type: article
+logo: /images/freebogatov.png
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+      seo:
+        type: Article
+      image: /images/freebogatov.png
+
+languages:
+  - name: English
+    link: '/en'
+    code: en_US
+  - name: Русский
+    link: '/'
+    code: ru_RU
+
+
+# Build settings
+markdown: kramdown
+gems:
+  - jekyll-seo-tag
+  - jekyll-sitemap
