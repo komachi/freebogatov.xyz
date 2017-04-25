@@ -4,10 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha256-rr9hHBQ43H7HSOmmNkxzQGazS/Khx+L8ZRHteEY1tQ4=" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
-     <link href="https://fonts.googleapis.com/css?family=Lora:400&amp;subset=cyrillic" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Oswald:500&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&amp;amp;subset=cyrillic" rel="stylesheet">
     <link href="/css/main.css" rel="stylesheet">
     {% seo %}
     {% for language in site.languages %}
@@ -19,26 +17,6 @@
     {% endfor %}
   </head>
   <body>
-    <div class="container">
-      <div class="row d-flex justify-content-end languages">
-        {% for language in site.languages %}
-          <a href="{{ language.link }}">{{ language.name }}</a>
-        {% endfor %}
-      </div>
-      <div class="row">
-        <article class="col-12 h-entry">
-          {{ content }}
-        </article>
-      </div>
-      {% include social.html %}
-      <footer class="row">
-        <div class="col-12 text-center text-muted">
-          <a href="https://creativecommons.org/publicdomain/zero/1.0/" rel="license" class="text-muted"><i class="fa fa-creative-commons" aria-hidden="true"></i> CC0 1.0</a>, <a href="https://github.com/{{ site.github }}" target="_blank" class="text-muted"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a>.
-        </div>
-        <div class="col-12 text-center text-muted">
-          <a href="mailto:freebogatov@cock.li" class="text-muted">freebogatov@cock.li</a> GPG key: <a href="https://keybase.io/freebogatov/key.asc" target="_blank" class="text-muted">0xC70F74F7211C6E36</a>
-        </div>
-      </footer>
-    </div>
+    {{ content }}
   </body>
 </html>
