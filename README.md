@@ -1,6 +1,6 @@
 # freebogatov.org
 
-Support website about jailed russian mathematician and software devveloper Dmitry Bogatov.
+Support website about jailed russian mathematician and software developer Dmitry Bogatov.
 
 ## How to build and run
 
