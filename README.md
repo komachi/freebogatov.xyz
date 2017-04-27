@@ -1,6 +1,8 @@
-# freebogatov.org
+![Free Dmitry Bogatov — #freeBogatov](images/freebogatov-en.jpg)
 
-Support website about jailed russian mathematician and software developer Dmitry Bogatov.
+# [freebogatov.org](https://freebogatov.org/en/)
+
+Support website about jailed russian mathematician and [software developer](https://qa.debian.org/developer.php?email=KAction%40gnu.org) Dmitry Bogatov aka KAction.
 
 ## How to build and run
 
