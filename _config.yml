@@ -6,7 +6,7 @@ twitter:
   username: freeBogatov
 og:
   type: article
-logo: /images/freebogatov.png
+logo: /images/freebogatov.jpg
 defaults:
   -
     scope:
@@ -15,7 +15,7 @@ defaults:
       layout: "default"
       seo:
         type: Article
-      image: /images/freebogatov.png
+      image: /images/freebogatov.jpg
 
 languages:
   - name: English
