@@ -219,6 +219,7 @@ article p:last-child {
   right: 0;
   font-size: 0.778rem;
   text-transform: uppercase;
+  display: flex;
 }
 #lang a {
   background: rgba(26, 25, 28, 0.5);
@@ -227,6 +228,7 @@ article p:last-child {
   padding: 0.4rem 1rem;
   display: block;
   text-decoration: none;
+  margin-left: 4px;
 }
 #lang a .short {
   display: none;
