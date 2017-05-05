@@ -12,7 +12,7 @@ bundle install
 bundle exec jekyll serve
 ```
 
-## How to build in [Termux](https://termux.com/)
+## How to build and run in [Termux](https://termux.com/)
 
 ```bash
 apt install git make clang nodejs ruby ruby-dev libffi-dev libxml2-dev libxslt-dev pkg-config
