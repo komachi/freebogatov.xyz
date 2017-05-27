@@ -7,7 +7,7 @@ Support website about jailed russian mathematician and [software developer](http
 ## How to build and run
 
 ```bash
-git clone https://github.com/komachi/freebogatov.org.git && cd freebogatov.org
+git clone https://github.com/komachi/freebogatov.org && cd freebogatov.org
 bundle install
 bundle exec jekyll serve
 ```
