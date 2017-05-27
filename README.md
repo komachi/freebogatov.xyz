@@ -16,7 +16,7 @@ bundle exec jekyll serve
 
 ```bash
 apt install git make clang nodejs ruby ruby-dev libffi-dev libxml2-dev libxslt-dev pkg-config
-git clone https://github.com/komachi/freebogatov.org.git && cd freebogatov.org
+git clone https://github.com/komachi/freebogatov.org && cd freebogatov.org
 gem install bundle pkg-config
 gem install nokogiri -- --use-system-libraries
 bundle install
